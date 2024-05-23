@@ -1,0 +1,169 @@
+2024-03-25T09:53:31+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php:10
+Stack trace:
+#0 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(680): include()
+#1 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#2 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(654): do_action()
+#5 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(571): acf_render_block()
+#6 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(504): acf_rendered_block()
+#7 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-block.php(258): acf_render_block_callback()
+#8 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1484): WP_Block->render()
+#9 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1522): render_block()
+#10 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): do_blocks()
+#11 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/post-template.php(256): apply_filters()
+#13 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template-parts/content-page.php(21): the_content()
+#14 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(792): require('/home/u35604261...')
+#15 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(725): load_template()
+#16 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/general-template.php(206): locate_template()
+#17 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/page.php(24): get_template_part()
+#18 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template-loader.php(106): include('/home/u35604261...')
+#19 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-blog-header.php(19): require_once('/home/u35604261...')
+#20 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/index.php(17): require('/home/u35604261...')
+#21 {main}
+  thrown in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 10
+
+2024-03-25T09:53:53+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php:10
+Stack trace:
+#0 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(680): include()
+#1 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#2 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(654): do_action()
+#5 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(571): acf_render_block()
+#6 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(504): acf_rendered_block()
+#7 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-block.php(258): acf_render_block_callback()
+#8 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1484): WP_Block->render()
+#9 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1522): render_block()
+#10 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): do_blocks()
+#11 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/post-template.php(256): apply_filters()
+#13 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template-parts/content-page.php(21): the_content()
+#14 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(792): require('/home/u35604261...')
+#15 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(725): load_template()
+#16 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/general-template.php(206): locate_template()
+#17 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/page.php(24): get_template_part()
+#18 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template-loader.php(106): include('/home/u35604261...')
+#19 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-blog-header.php(19): require_once('/home/u35604261...')
+#20 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/index.php(17): require('/home/u35604261...')
+#21 {main}
+  thrown in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 10
+
+2024-03-25T09:54:07+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php:10
+Stack trace:
+#0 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(680): include()
+#1 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#2 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(654): do_action()
+#5 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(571): acf_render_block()
+#6 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(504): acf_rendered_block()
+#7 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-block.php(258): acf_render_block_callback()
+#8 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1484): WP_Block->render()
+#9 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1522): render_block()
+#10 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): do_blocks()
+#11 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/post-template.php(256): apply_filters()
+#13 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template-parts/content-page.php(21): the_content()
+#14 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(792): require('/home/u35604261...')
+#15 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(725): load_template()
+#16 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/general-template.php(206): locate_template()
+#17 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/page.php(24): get_template_part()
+#18 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template-loader.php(106): include('/home/u35604261...')
+#19 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-blog-header.php(19): require_once('/home/u35604261...')
+#20 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/index.php(17): require('/home/u35604261...')
+#21 {main}
+  thrown in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 10
+
+2024-03-25T09:54:11+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php:10
+Stack trace:
+#0 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(680): include()
+#1 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#2 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(654): do_action()
+#5 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(571): acf_render_block()
+#6 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(504): acf_rendered_block()
+#7 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-block.php(258): acf_render_block_callback()
+#8 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1484): WP_Block->render()
+#9 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1522): render_block()
+#10 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): do_blocks()
+#11 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/post-template.php(256): apply_filters()
+#13 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template-parts/content-page.php(21): the_content()
+#14 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(792): require('/home/u35604261...')
+#15 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(725): load_template()
+#16 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/general-template.php(206): locate_template()
+#17 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/page.php(24): get_template_part()
+#18 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template-loader.php(106): include('/home/u35604261...')
+#19 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-blog-header.php(19): require_once('/home/u35604261...')
+#20 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/index.php(17): require('/home/u35604261...')
+#21 {main}
+  thrown in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 10
+
+2024-03-25T09:54:49+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php:10
+Stack trace:
+#0 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(680): include()
+#1 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): acf_block_render_template()
+#2 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(654): do_action()
+#5 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(571): acf_render_block()
+#6 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(504): acf_rendered_block()
+#7 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-block.php(258): acf_render_block_callback()
+#8 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1484): WP_Block->render()
+#9 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/blocks.php(1522): render_block()
+#10 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): do_blocks()
+#11 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#12 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/post-template.php(256): apply_filters()
+#13 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template-parts/content-page.php(21): the_content()
+#14 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(792): require('/home/u35604261...')
+#15 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(725): load_template()
+#16 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/general-template.php(206): locate_template()
+#17 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/page.php(24): get_template_part()
+#18 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template-loader.php(106): include('/home/u35604261...')
+#19 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-blog-header.php(19): require_once('/home/u35604261...')
+#20 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/index.php(17): require('/home/u35604261...')
+#21 {main}
+  thrown in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 10
+
+2024-03-25T10:00:53+00:00 CRITICAL syntax error, unexpected token "echo", expecting "," or ";" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 23
+
+2024-03-25T10:06:36+00:00 CRITICAL syntax error, unexpected token "if" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 52
+
+2024-03-25T10:06:52+00:00 CRITICAL syntax error, unexpected token "if" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 52
+
+2024-03-25T10:07:43+00:00 CRITICAL syntax error, unexpected token "if" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 52
+
+2024-03-25T10:08:22+00:00 CRITICAL syntax error, unexpected token "endif" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 54
+
+2024-03-25T10:09:48+00:00 CRITICAL syntax error, unexpected token "endif" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 54
+
+2024-03-25T10:11:27+00:00 CRITICAL syntax error, unexpected token "endif" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 56
+
+2024-03-25T18:36:52+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/functions.php:1735
+Stack trace:
+#0 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(326): populate_deployment_user_8()
+#1 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/gravityforms/gravityforms.php(7014): apply_filters()
+#3 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/gravityforms/form_display.php(891): gf_apply_filters()
+#4 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/gravityforms/gravityforms.php(3280): GFFormDisplay::get_form()
+#5 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/plugins/gravityforms/gravityforms.php(1996): GFForms::get_form()
+#6 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/shortcodes.php(433): GFForms::parse_shortcode()
+#7 [internal function]: do_shortcode_tag()
+#8 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/shortcodes.php(273): preg_replace_callback()
+#9 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/class-wp-hook.php(324): do_shortcode()
+#10 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#11 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/post-template.php(256): apply_filters()
+#12 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template-parts/content-page.php(21): the_content()
+#13 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(792): require('/home/u35604261...')
+#14 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template.php(725): load_template()
+#15 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/general-template.php(206): locate_template()
+#16 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/page.php(24): get_template_part()
+#17 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template-loader.php(106): include('/home/u35604261...')
+#18 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-blog-header.php(19): require_once('/home/u35604261...')
+#19 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/index.php(17): require('/home/u35604261...')
+#20 {main}
+  thrown in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/functions.php on line 1735
+

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Lonkie';
+    src: url('Lonkie-Bold.woff2') format('woff2'),
+        url('Lonkie-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lonkie Brush';
+    src: url('LonkieBrush-Bold.woff2') format('woff2'),
+        url('LonkieBrush-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lonkie Brush Rg';
+    src: url('LonkieBrush-Regular.woff2') format('woff2'),
+        url('LonkieBrush-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lonkie Rg';
+    src: url('Lonkie-Regular.woff2') format('woff2'),
+        url('Lonkie-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

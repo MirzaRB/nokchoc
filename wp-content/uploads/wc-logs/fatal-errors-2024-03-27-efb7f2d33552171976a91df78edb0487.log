@@ -1,0 +1,32 @@
+2024-03-27T09:36:23+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template/newPage2.php:146
+Stack trace:
+#0 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-includes/template-loader.php(106): include()
+#1 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-blog-header.php(19): require_once('/home/u35604261...')
+#2 /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/index.php(17): require('/home/u35604261...')
+#3 {main}
+  thrown in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template/newPage2.php on line 146
+
+2024-03-27T09:43:45+00:00 CRITICAL syntax error, unexpected token "echo", expecting "," or ";" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template/newPage2.php on line 143
+
+2024-03-27T10:37:08+00:00 CRITICAL syntax error, unexpected token ";", expecting ":" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template/newPage2.php on line 57
+
+2024-03-27T10:37:32+00:00 CRITICAL syntax error, unexpected token ";", expecting ":" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template/newPage2.php on line 58
+
+2024-03-27T10:37:47+00:00 CRITICAL syntax error, unexpected token ";", expecting ":" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template/newPage2.php on line 58
+
+2024-03-27T10:37:53+00:00 CRITICAL syntax error, unexpected token ";", expecting ":" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template/newPage2.php on line 58
+
+2024-03-27T17:29:51+00:00 CRITICAL syntax error, unexpected token ">" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 31
+
+2024-03-27T17:30:53+00:00 CRITICAL syntax error, unexpected token ">" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 31
+
+2024-03-27T17:54:42+00:00 CRITICAL syntax error, unexpected token ">" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 31
+
+2024-03-27T17:55:11+00:00 CRITICAL syntax error, unexpected token ">" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 31
+
+2024-03-27T18:22:16+00:00 CRITICAL syntax error, unexpected variable "$user_id", expecting ")" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/Blocks/Support.php on line 79
+
+2024-03-27T19:07:33+00:00 CRITICAL syntax error, unexpected token "<" in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template/newPage2.php on line 178
+
+2024-03-27T19:13:41+00:00 CRITICAL syntax error, unexpected token "." in /home/u356042611/domains/appwebmart.com/public_html/client/nokchoc/wp-content/themes/nok-choc/template/newPage2.php on line 178
+
